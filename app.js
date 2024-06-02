@@ -1,10 +1,10 @@
-const API_KEY = `461e32f579f0d9ff90dfb4b5f5e107b2`
+const API_KEY = `your api key`
 const form = document.querySelector("form")
 const search = document.querySelector("#search")
 const weather = document.querySelector("#weather")
 const getWeather = async(city) => {
     weather.innerHTML = `<h2> Loading... <h2>`
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
+    const url = `open weather api generated link`
     const response = await fetch(url);
     const data = await response.json()
     return showWeather(data)
