@@ -16,7 +16,7 @@ const showWeather = (data) => {
     }
     weather.innerHTML = `
         <div>
-            <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">
+            <img src="getting image from openweather api generated link">
         </div>
         <div>
             <h2>${data.main.temp} ℃</h2>
